@@ -1,0 +1,4 @@
+/home/jo/Gmock/gmock-demo/build/CMakeFiles/user_registration_test.dir
+/home/jo/Gmock/gmock-demo/build/CMakeFiles/test.dir
+/home/jo/Gmock/gmock-demo/build/CMakeFiles/edit_cache.dir
+/home/jo/Gmock/gmock-demo/build/CMakeFiles/rebuild_cache.dir

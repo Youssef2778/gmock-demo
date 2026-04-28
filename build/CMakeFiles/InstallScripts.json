@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/jo/Gmock/gmock-demo/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

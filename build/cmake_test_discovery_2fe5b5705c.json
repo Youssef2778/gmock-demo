@@ -1,0 +1,27 @@
+{
+  "tests": 3,
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "UserRegistrationTest",
+      "tests": 3,
+      "testsuite": [
+        {
+          "name": "SendsWelcomeEmail",
+          "file": "\/home\/jo\/Gmock\/gmock-demo\/test.cpp",
+          "line": 14
+        },
+        {
+          "name": "ReturnsFalseWhenEmailFails",
+          "file": "\/home\/jo\/Gmock\/gmock-demo\/test.cpp",
+          "line": 23
+        },
+        {
+          "name": "ReturnsTrueWhenEmailSucceeds",
+          "file": "\/home\/jo\/Gmock\/gmock-demo\/test.cpp",
+          "line": 32
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/user_registration_test.dir/link.d CMakeFiles/user_registration_test.dir/test.cpp.o CMakeFiles/user_registration_test.dir/UserRegistration.cpp.o -o user_registration_test  /usr/lib/x86_64-linux-gnu/libgtest.a /usr/lib/x86_64-linux-gnu/libgtest_main.a /usr/lib/x86_64-linux-gnu/libgmock.a /usr/lib/x86_64-linux-gnu/libgtest.a

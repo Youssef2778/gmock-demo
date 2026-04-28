@@ -1,0 +1,7 @@
+add_test([=[UserRegistrationTest.SendsWelcomeEmail]=]  /home/jo/Gmock/gmock-demo/build/user_registration_test [==[--gtest_filter=UserRegistrationTest.SendsWelcomeEmail]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[UserRegistrationTest.SendsWelcomeEmail]=]  PROPERTIES DEF_SOURCE_LINE /home/jo/Gmock/gmock-demo/test.cpp:14 WORKING_DIRECTORY /home/jo/Gmock/gmock-demo/build SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test([=[UserRegistrationTest.ReturnsFalseWhenEmailFails]=]  /home/jo/Gmock/gmock-demo/build/user_registration_test [==[--gtest_filter=UserRegistrationTest.ReturnsFalseWhenEmailFails]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[UserRegistrationTest.ReturnsFalseWhenEmailFails]=]  PROPERTIES DEF_SOURCE_LINE /home/jo/Gmock/gmock-demo/test.cpp:23 WORKING_DIRECTORY /home/jo/Gmock/gmock-demo/build SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test([=[UserRegistrationTest.ReturnsTrueWhenEmailSucceeds]=]  /home/jo/Gmock/gmock-demo/build/user_registration_test [==[--gtest_filter=UserRegistrationTest.ReturnsTrueWhenEmailSucceeds]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[UserRegistrationTest.ReturnsTrueWhenEmailSucceeds]=]  PROPERTIES DEF_SOURCE_LINE /home/jo/Gmock/gmock-demo/test.cpp:32 WORKING_DIRECTORY /home/jo/Gmock/gmock-demo/build SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+set(  user_registration_test_TESTS UserRegistrationTest.SendsWelcomeEmail UserRegistrationTest.ReturnsFalseWhenEmailFails UserRegistrationTest.ReturnsTrueWhenEmailSucceeds)

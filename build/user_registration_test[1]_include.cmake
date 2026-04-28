@@ -1,0 +1,5 @@
+if(EXISTS "/home/jo/Gmock/gmock-demo/build/user_registration_test[1]_tests.cmake")
+  include("/home/jo/Gmock/gmock-demo/build/user_registration_test[1]_tests.cmake")
+else()
+  add_test(user_registration_test_NOT_BUILT user_registration_test_NOT_BUILT)
+endif()
